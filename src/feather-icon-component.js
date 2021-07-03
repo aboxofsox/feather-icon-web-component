@@ -30,6 +30,7 @@ class FeatherIcon extends HTMLElement {
         this.svg.appendChild(this.use);
 
         [style, this.svg].forEach(e => shadow.appendChild(e));
+        this.use.setAttribute('href', `${feather_icon}#${this.icon || 'feather'}`);
     }
 
     static get observedAttributes() {
@@ -38,7 +39,7 @@ class FeatherIcon extends HTMLElement {
 
     attributeChangedCallback(name, oldValue, newValue) {
         if(name == 'icon') {
-            this.use.setAttribute('href', `./src/feather-sprite.svg#${newValue}`);
+            this.use.setAttribute('href', `${feather_icon}#${newValue}`);
         }
     }
 }

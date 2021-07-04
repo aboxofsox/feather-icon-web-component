@@ -1,3 +1,4 @@
 node_modules
-*.json
+package-lock.json
 index.html
+./feather-icon-wc.js

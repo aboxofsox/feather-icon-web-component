@@ -1,0 +1,24 @@
+{
+  "name": "feather-icon-web-component",
+  "version": "1.0.0",
+  "description": "A super simple web component for Feather Icons.",
+  "main": "feather-icon-component.js",
+  "scripts": {
+    "build": "esbuild ./src/feather-icon-component.js --bundle --outfile=./dist/feather-icon-wc.js --loader:.svg=dataurl --minify",
+    "dev": "esbuild ./src/feather-icon-component.js --bundle --outfile=./dist/feather-icon-wc.js --loader:.svg=dataurl --sourcemap --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboxofsox/feather-icon-web-component.git"
+  },
+  "keywords": [],
+  "author": "aboxofsox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aboxofsox/feather-icon-web-component/issues"
+  },
+  "homepage": "https://github.com/aboxofsox/feather-icon-web-component#readme",
+  "dependencies": {
+    "esbuild": "^0.12.14"
+  }
+}

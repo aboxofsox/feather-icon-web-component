@@ -12,6 +12,8 @@ A super simple web component for [Feather Icons](https://feathericons.com/)
 
 
 ## Attributes
+`icon` - name of the icon you'd like to use. For a full list, check out [Feather Icons](https://feathericons.com/).
+
 `width` - in pixels.
 
 `height` - in pixels.

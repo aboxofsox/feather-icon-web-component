@@ -25,6 +25,7 @@ A super simple web component for [Feather Icons](https://feathericons.com/)
 
 ```html
 <feather-icon
+    icon="github"
     width="50"
     height="50"
     color="slateblue"

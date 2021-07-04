@@ -28,3 +28,12 @@ A super simple web component for [Feather Icons](https://feathericons.com/)
     color="slateblue"
 ></feather-icon>
 ```
+## Build Your Own
+
+### Prereqs
+- npm
+
+### esbuild
+`npm run build`
+
+`npm run dev`
